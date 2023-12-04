@@ -22,7 +22,8 @@ sudo cp -r * /etc/update-motd.d
 ```
 - rename the install.sh to 00-hostname for running this script automatically.
 ```
- mv install.sh 00-hostname
+ cd /etc/update-motd.d
+ sudo mv motd.sh 00-hostname
 ```
 - Update the motd
 ```
@@ -36,3 +37,5 @@ sudo update-motd
 
 #### ***and Tada. The result :D***
 ![Alt text](image.png)
+
+![Alt text](image-1.png)
