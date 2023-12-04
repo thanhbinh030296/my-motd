@@ -8,6 +8,7 @@ sudo apt install update-motd
 - clone this https://github.com/thanhbinh030296/fancy-motd
 
 ```
+git clone https://github.com/thanhbinh030296/fancy-motd
 cd fancy-motd
 cp config.sh.example config.sh
 ```
@@ -24,7 +25,7 @@ sudo update-motd
 ```
 ### Notice that: 
  - `PrintMotd yes` in `/etc/ssh/sshd_config`
- 
+
 
 #### ***and Tada. The result :D***
 ![Alt text](image.png)
